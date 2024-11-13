@@ -3,11 +3,6 @@ from study_content_ai_analyzer import db
 
 def display_app_page():
     def display_quiz():
-        # Retrieve the difficulty from session state
-        difficulty = st.session_state.get("difficulty", default="Easy")
-        st.subheader(f"Difficulty Selected: {difficulty}")
-        print(f"difficulty selected: {difficulty}")
-
         questions_data = st.session_state.get("question_list_generated")
         
         # Check if questions_data exists
