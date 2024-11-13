@@ -1,0 +1,6 @@
+os
+python-dotenv
+google-generativeai
+pymysql
+streamlit
+pandas
